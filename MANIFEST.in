@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hr_salary_slip *.css
+recursive-include hr_salary_slip *.csv
+recursive-include hr_salary_slip *.html
+recursive-include hr_salary_slip *.ico
+recursive-include hr_salary_slip *.js
+recursive-include hr_salary_slip *.json
+recursive-include hr_salary_slip *.md
+recursive-include hr_salary_slip *.png
+recursive-include hr_salary_slip *.py
+recursive-include hr_salary_slip *.svg
+recursive-include hr_salary_slip *.txt
+recursive-exclude hr_salary_slip *.pyc
